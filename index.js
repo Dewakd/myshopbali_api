@@ -21,8 +21,8 @@ app.get("/", (req, res) => {
 mongoose.connect("mongodb+srv://dewakd:4nbq1jGxohkSIShz@myshopbalidb.cyteg.mongodb.net/myshopbali?retryWrites=true&w=majority&appName=myshopbaliDB")
 .then(() => {
     console.log("Connected to database");
-    app.listen(3000, () => {
-        console.log("server running on port 3000");
+    app.listen(3001, () => {
+        console.log("server running on port 3001");
     })
 })
 .catch((err) => {
